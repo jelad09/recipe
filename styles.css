@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    background-color: rgba(122, 191, 191, .5);
+}
+body {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;;
+    margin: 0 auto;
+    max-width: 1280px;
+    min-width: 768px;
+}
+header {
+    background-color: #ffffff;
+}
+main {
+ background-color: #F2F2F2;
+}
+#one img {
+    margin-left: 8em;
+}
+ul {
+    display: inline-block;
+}
+li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 2em;
+    margin-left: 20px;
+}
+nav {
+    font-size: 16px;
+    color: #EB5428;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center; 
+    padding: 8px;
+    margin-top: -4em;
+   
+}
+nav img {
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+}
+nav a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav li {
+    display: inline-block;
+}
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #0D0D0D;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    color: #0D0D0D;
+    margin-left: 20px;
+    margin-top: 0.5em; 
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 2em;
+    font-family: 'Bebas Neue', cursive;
+    color: #EB5428;
+}
+#svg {
+    background-color: #EB5428;
+    width: 5%;
+}
+#avatar {
+    float: right;
+    margin-top: -7em;
+    margin-left: 4em;
+    width: 5.5%;
+}
+#avatar p {
+    font-family: 'Bebas Neue', cursive;
+    margin-top: -0.5em;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2em;
+    display: block;
+    float: right;
+    width: 50%;
+    margin: 30px;
+}
+span {
+    font-weight: 700;
+}
+#dishes {
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #7ABFBF;
+    height: 380px;
+    width: 100%;
+
+}
+#dishes h2 {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding-left: 20px;
+    width: 70%;
+}
+#dishes h3 {
+    color: #0D0D0D;
+    margin-top: -37px;
+    display: inline-block;
+    padding-right: 5em;
+    padding-left: 4em;
+}
+#dishes img {
+    width: 210px;
+    height: 210px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 40px;
+}
+#dishes p {
+    display: inline-block;
+    position: absolute;
+    margin-left: -14em;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+footer {
+    background-color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    display: flex;
+}
+footer p {
+    line-height: 1em;
+    padding-top: 15px;
+}
+footer img {
+    width: 160px;
+    height: 160px;
+    margin-top: 1em;
+    margin-left: 20px;
+}
+menu {
+    position: absolute;
+    top: 20em;
+    padding-left: 15px;
+}
+menu li {
+    color: #EB5428;
+}
+menu button {
+    display: flex;
+    color: #EB5428;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+#details {
+    background-color: #0D0D0D;
+    color: #7ABFBF;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-top: -3px;
+}
+#details p {
+    text-align: center;
+    line-height: 1.5em;
+    padding-top: 30px;
+}
+#details h2 {
+    color: #7ABFBF;
+    position: absolute;
+    padding: 0;
+    width: 75%;
+}
+#directions h2 {
+    text-align: center;
+    margin-top: -1em;
+    width: 70%;
+}
+#directions {
+   display: block;
+   width: 78%;
+   float: right;
+}
+main form {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 2.5em;
+    padding-bottom: 1.5em; 
+     
+}
+main button {
+    background-color: #F2F2F2;
+    color: #EB5428;
+    border: none;
+}
+#social li {
+    display: inline-block;
+    color:#EB5428;
+    font-size: 20px;
+    padding-left: 60px;
+    margin-top: -60px;
+}
+#social svg {
+    display: inline-block;
+    padding: 34px;
+    margin-bottom: -40px;
+    padding-left: 76px;
+}
+
+@media screen and (max-width:768px) {
+#details {
+    background-color: #F2F2F2; 
+    color:#0D0D0D;
+}
+#details h2 {
+   color:#0D0D0D;
+}
+p { 
+    margin-left: 60px;
+    float: left;
+    width: 85%;
+}
+#dishes img {
+    width: 80px;
+    height: 80px;
+
+}
+#directions {
+    display: block;
+    position: absolute;
+    margin-top: -22em;
+    margin-left: 12em;
+ }
+header {
+    padding-top: 25px;
+ }
+
+menu button {
+    display: inline-block;
+    color: #EB5428;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+nav img {
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+}
+#svg {
+    width: 9%;
+    margin-top: -25px;
+}
+nav {
+    margin-top: -20px;
+}
+#avatar {
+    float: right;
+    margin-top: -9em;
+    margin-right: 10px;
+    width: 5.5%;
+}
+#avatar p {
+    margin-left: -0.2px;
+}
+menu {
+    display: flex;
+    margin-left: 100px;
+    margin-top: -7.5em;
+    padding: 7px;
+}
+h1 {
+    float: left;
+    margin-top: -80px;
+    margin-left: 20px;
+
+}
+#social li {
+    display: inline-block;
+    color:#EB5428;
+    font-size: 20px;
+    padding-left: 60px;
+    margin-top: -60px;
+}
+#social svg {
+    display: inline-block;
+    padding: 34px;
+    margin-bottom: -40px;
+    padding-left: 76px;
+}
+}
